@@ -46,7 +46,8 @@ button {
   outline: none;
 }
 
-button {
+button,
+form > input[type="submit"] {
   background-color: #008cba;
   border: none;
   color: white;
@@ -60,7 +61,8 @@ button {
   border-radius: 10%;
 }
 
-button:hover {
+button:hover,
+form > input[type="submit"]:hover {
   background: #2079b0;
   text-decoration: none;
   cursor: pointer;
@@ -157,4 +159,9 @@ ul li.editMode label {
   font-size: 15px;
   float: right;
   text-align: center;
+}
+
+/* LOGIN */
+form > input[type="text"] {
+  margin: 10px 0px;
 }
